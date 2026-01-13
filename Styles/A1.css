@@ -2,18 +2,108 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", system-ui, sans-serif;
 }
 
-.btn {
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 80px;
+
+}
+
+.navbar a {
+    color: #e5e7eb;
+    margin-left: 24px;
+    text-decoration: none;
+
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.btn-outline {
+    border: 1px solid #38bdf8;
+    padding: 8px 16px;
+    border-radius: 6%;
+}
+
+/* Banner */
+
+.banner {
+    text-align: center;
+    padding: 80px 2px 80px;
+    max-width: 900px;
+    margin: auto;
+    background: url("../assets/hero-bg.png");
+    border: 1px solid red;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat:no-repeat;
+
+}
+
+.badge {
+    display: inline-block;
+    background:#020617;
+    border: 1pxsolid #1e293b;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 14px;
+    margin-bottom: 20px;  
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
     
-    width: 164px;
-    height: 44px;
-    background-color: #30B868;
-    border: none;
+}
+
+.banner p {
+    color: #cbd5f5;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.banner-buttons a {
+    margin: 0 8px;
+
+}
+
+/* Buttons*/
+
+.btn-primary {
+    background: #30B868;
+    color: white;
     padding: 12px 16px 12px 16px;
-    font-size: 12px;
-    font-weight: bold;
-    color:white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-secondary {
+    border: 1px solid #64748b;
+    color: white;
+    padding: 12px 16px 12px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
 
 }
 
@@ -22,8 +112,11 @@ header {
     padding-top: 16px;
 }
 
-nav{
-   width: 1600px;
+nav {
+   width: 80%;
+   max-width: 1600px;
+   height: 70px;
+   /*border: 1px solid red;*/
    margin: 0px auto;
    display: flex;
    justify-content: space-between;
@@ -46,3 +139,36 @@ nav .menu a {
     text-decoration:none;
 
 }
+
+nav .logo {
+    width: 120px;
+    height: 40px;
+}
+
+/*#banner .banner-content h1 {
+    width: 770px;
+    height: 70px;
+    color: white;
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+#banner .banner-content h2 {
+    width: 770px;
+    height: 70px;
+    color: rgba(48, 184, 104, 1);
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+#banner .banner-content p1 {
+    width: 800px;
+    height: 60px;
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}*/

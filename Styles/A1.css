@@ -246,6 +246,7 @@ nav .logo {
   margin-bottom: 10px;
   color: black;
 }
+
 /*
 .problem-icon {
   width: 48px;
@@ -308,3 +309,82 @@ nav .logo {
     text-align: center;
 }
 */
+
+.solution {
+    width: 100%;
+    padding: 96px 80px;
+    background: white;
+
+}
+    
+.solution-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 64px;     
+
+}
+.solution-image {
+    flex: 1;
+ 
+}
+
+.solution-image img {
+    width: 100%;
+    max-width: 520px;
+    display: block;
+
+}
+
+.solution-text {
+    flex: 1;
+    text-align: left;
+ 
+}
+
+.solution-text h1 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: rgba(70, 145, 101, 1);
+}
+
+.solution-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    color: rgba(0, 25, 49, 1);
+ 
+}
+
+.solution-text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: rgba(98, 5, 130, 1);
+ 
+}
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    gap: 12px;
+    color:black;
+    margin-bottom: 16px;
+}
+
+.features li img {
+    width: 16.25px;
+    height: 16.25px;
+    font-size: 16px;
+    gap: 12px;
+    color:rgba(48, 184, 104, 1);;
+    margin-top: 2px;
+}
